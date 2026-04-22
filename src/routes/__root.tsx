@@ -36,14 +36,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sweetly & Co. — Premium Halal, Vegan & Pick & Mix Sweets" },
+      { title: "Sweetly & Co" },
       {
         name: "description",
         content:
           "Premium halal, vegan and irresistible sweets, hand-packed fresh in the UK. Pick & Mix bundles, gummies, sour candy and gift boxes delivered to your door.",
       },
       { name: "author", content: "Sweetly & Co." },
-      { property: "og:title", content: "Sweetly & Co. — Unwrap Happiness in Every Bite" },
+      { property: "og:title", content: "Sweetly & Co" },
       {
         property: "og:description",
         content: "Premium halal, vegan & irresistible sweets delivered to your door.",
@@ -51,6 +51,12 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@sweetlyco" },
+      { name: "twitter:title", content: "Sweetly & Co" },
+      { name: "description", content: "Premium Halal, Vegan & Pick & Mix Sweets" },
+      { property: "og:description", content: "Premium Halal, Vegan & Pick & Mix Sweets" },
+      { name: "twitter:description", content: "Premium Halal, Vegan & Pick & Mix Sweets" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/9c02ae30-a62a-453f-bb37-eba4f67efe43" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/9c02ae30-a62a-453f-bb37-eba4f67efe43" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
   }),
